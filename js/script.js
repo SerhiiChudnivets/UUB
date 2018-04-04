@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#exampleHeadContentItem").click(function(){
+        $("#exampleContentItemFirst").fadeToggle("1000");
+    });
+});
+$(document).ready(function(){
+    $("#exampleHeadContentItem2").click(function(){
+        $("#exampleContentItemFirst2").fadeToggle("1000");
+    });
+});
